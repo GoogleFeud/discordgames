@@ -1,0 +1,27 @@
+{
+  "name": "textgame",
+  "version": "1.0.0",
+  "description": "A way to create games in text apps via node-canvas",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoogleFeud/textgame.git"
+  },
+  "keywords": [],
+  "author": "GoogleFeud",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GoogleFeud/textgame/issues"
+  },
+  "homepage": "https://github.com/GoogleFeud/textgame#readme",
+  "dependencies": {
+    "canvas": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
