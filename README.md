@@ -17,8 +17,9 @@ Also, it's not required to use emojis! You can use letters or text just fine! Th
 For example:
 
 ```js
-const Discordgames = require("discord.games");
-const game = new Discordgames.Engine({
+const TextGames = require("text.games");
+
+const game = new TextGame.Engine({
     width: 10, 
     height: 10,
     backgroundEmoji: "⬛"
