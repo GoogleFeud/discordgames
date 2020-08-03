@@ -194,7 +194,7 @@ Moves every pixel in the group.
 
 |  Parameter  | Type | Description
 | ------------- | ------------- |  ------------- |
-| axis | "x"|"y" | The axis to move to |
+| axis | "x" OR "y" | The axis to move to |
 | distance | Number | How far to move the group. Defaults to `1`. |
 
 **Returns:** `void`
