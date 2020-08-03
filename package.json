@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/GoogleFeud/text.games.git"
   },
-  "keywords": [],
+  "keywords": ["discord", "game", "emojis", "text", "chat", "slack"],
   "author": "GoogleFeud",
   "main": "dist/index.js",
   "types": "index.d.ts",
