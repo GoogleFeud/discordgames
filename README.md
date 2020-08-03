@@ -1,2 +1,2 @@
 # textgame
-A way to create games in text apps via node-canvas
+A way to create games in discord via emojis
