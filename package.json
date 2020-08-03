@@ -1,6 +1,6 @@
 {
   "name": "text.games",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A way to create games in discord via emojis",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,14 @@
     "type": "git",
     "url": "git+https://github.com/GoogleFeud/text.games.git"
   },
-  "keywords": ["discord", "game", "emojis", "text", "chat", "slack"],
+  "keywords": [
+    "discord",
+    "game",
+    "emojis",
+    "text",
+    "chat",
+    "slack"
+  ],
   "author": "GoogleFeud",
   "main": "dist/index.js",
   "types": "index.d.ts",
