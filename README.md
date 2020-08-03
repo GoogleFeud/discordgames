@@ -168,7 +168,7 @@ Returns the pixel at the specified coordinates. Useful for checking for collisio
 
 #### #toString()
 
-Returns the grid as a string. This string should be sent to discord.
+Returns the grid as a string. This string should be sent to the text app. 
 
 **Returns:** `String`
 
