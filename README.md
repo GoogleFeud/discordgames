@@ -2,7 +2,7 @@
 
 A way to create games via emojis! This module can be used to create small games for slack, discord, the terminal, any chat app with an API really!
 
-[Img1](https://i.imgur.com/GvkKgOE.png)
+![Img1](https://i.imgur.com/GvkKgOE.png)
 
 ## Install
 
@@ -33,7 +33,7 @@ game.fill(1, 9, "🤡");
 
 This produces this, when viewed on discord:
 
-[Img2](https://i.imgur.com/qF677JR.png)   
+![Img2](https://i.imgur.com/qF677JR.png)   
 
 Another important concept are `groups`. Groups are something like a mini-grid, or a layer on top of the grid. They can hold multiple pixels and control them. 
 
