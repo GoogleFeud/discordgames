@@ -13,7 +13,7 @@ const DEFAULT_SETTINGS = {
     height: 10
 }
 
-export default class Engine {
+export class Engine {
     settings: EngineSettings
     private pixels: Map<string, Pixel>
     groups: Array<Group>
