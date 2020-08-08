@@ -5,12 +5,14 @@ interface EngineSettings {
     height: number
     backgroundEmoji?: string
     spaceBetween?: boolean
+    newLine?: string
 }
 
 const DEFAULT_SETTINGS = {
     backgroundEmoji: "⬛",
     width: 10,
-    height: 10
+    height: 10,
+    newLine: "\n"
 }
 
 export class Engine {
@@ -66,7 +68,7 @@ export class Engine {
                 if (data) res += data.emoji;
                 else res += this.settings.backgroundEmoji;
                 if (this.settings.spaceBetween) res += " ";
-                if (x % width === 0) res += "\n";
+                if (x % width === 0) res += this.settings.newLine;
             }
         }
         return res;

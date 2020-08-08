@@ -56,9 +56,9 @@ groupOfCrybabies.move("x", 1);
 ```
 ## API
 
-- [Pixel](https://github.com/GoogleFeud/discordgames#Pixel)
-- [Engine](https://github.com/GoogleFeud/discordgames#Engine)
-- [Group](https://github.com/GoogleFeud/discordgames#Group)
+- [Pixel](https://github.com/GoogleFeud/text.games#Pixel)
+- [Engine](https://github.com/GoogleFeud/text.games#Engine)
+- [Group](https://github.com/GoogleFeud/text.games#Group)
 
 ### Pixel
 
@@ -99,6 +99,7 @@ The group of this pixel.
 | Settings.height | Number |  How tall in pixels (aka emojis) should the grid be. Default is `10`. |
 | Settings.backgroundEmoji | String | What the background emoji should be. Default is `⬛`. |
 | Settings.spaceBetween | Boolean | Adds a space between each row of emoji. Default i `false`. |
+| Settings.newLine | String | The character for line breaks. Default is `\n`. |
 
 #### #fill()
 

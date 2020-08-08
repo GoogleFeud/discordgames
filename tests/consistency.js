@@ -2,7 +2,7 @@
 
 const Engine = require("../index.js")
 
-const game = new Engine.Engine({height: 5, width: 5, backgroundEmoji: "b"});
+const game = new Engine.Engine({height: 5, width: 5, backgroundEmoji: "b", newLine: "<br>"});
 
 const group = game.group("a", [
     {x: 1, y: 1},
