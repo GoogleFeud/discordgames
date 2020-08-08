@@ -1,6 +1,6 @@
 {
   "name": "text.games",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A way to create games in chat apps via emojis",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
